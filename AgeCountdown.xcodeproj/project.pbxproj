@@ -10,16 +10,17 @@
 		DED7727F2BA7675400D59029 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED7727E2BA7675400D59029 /* AppDelegate.swift */; };
 		DED772812BA7675400D59029 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED772802BA7675400D59029 /* ViewController.swift */; };
 		DED772832BA7675500D59029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED772822BA7675500D59029 /* Assets.xcassets */; };
-		DED772862BA7675500D59029 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DED772852BA7675500D59029 /* Base */; };
+		DED772932BA775A800D59029 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED772922BA775A800D59029 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DED7727B2BA7675400D59029 /* BirthdayCountdownMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayCountdownMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DED7727B2BA7675400D59029 /* AgeCountdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgeCountdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED7727E2BA7675400D59029 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DED772802BA7675400D59029 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DED772822BA7675500D59029 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DED772852BA7675500D59029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DED772872BA7675500D59029 /* BirthdayCountdownMenu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BirthdayCountdownMenu.entitlements; sourceTree = "<group>"; };
+		DED772872BA7675500D59029 /* AgeCountdown.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AgeCountdown.entitlements; sourceTree = "<group>"; };
+		DED772922BA775A800D59029 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DED772962BA77B2200D59029 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +37,7 @@
 		DED772722BA7675400D59029 = {
 			isa = PBXGroup;
 			children = (
-				DED7727D2BA7675400D59029 /* BirthdayCountdownMenu */,
+				DED7727D2BA7675400D59029 /* AgeCountdown */,
 				DED7727C2BA7675400D59029 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,29 +45,30 @@
 		DED7727C2BA7675400D59029 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DED7727B2BA7675400D59029 /* BirthdayCountdownMenu.app */,
+				DED7727B2BA7675400D59029 /* AgeCountdown.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DED7727D2BA7675400D59029 /* BirthdayCountdownMenu */ = {
+		DED7727D2BA7675400D59029 /* AgeCountdown */ = {
 			isa = PBXGroup;
 			children = (
 				DED7727E2BA7675400D59029 /* AppDelegate.swift */,
+				DED772962BA77B2200D59029 /* Info.plist */,
+				DED772922BA775A800D59029 /* main.swift */,
 				DED772802BA7675400D59029 /* ViewController.swift */,
 				DED772822BA7675500D59029 /* Assets.xcassets */,
-				DED772842BA7675500D59029 /* Main.storyboard */,
-				DED772872BA7675500D59029 /* BirthdayCountdownMenu.entitlements */,
+				DED772872BA7675500D59029 /* AgeCountdown.entitlements */,
 			);
-			path = BirthdayCountdownMenu;
+			path = AgeCountdown;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DED7727A2BA7675400D59029 /* BirthdayCountdownMenu */ = {
+		DED7727A2BA7675400D59029 /* AgeCountdown */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DED7728A2BA7675500D59029 /* Build configuration list for PBXNativeTarget "BirthdayCountdownMenu" */;
+			buildConfigurationList = DED7728A2BA7675500D59029 /* Build configuration list for PBXNativeTarget "AgeCountdown" */;
 			buildPhases = (
 				DED772772BA7675400D59029 /* Sources */,
 				DED772782BA7675400D59029 /* Frameworks */,
@@ -76,9 +78,9 @@
 			);
 			dependencies = (
 			);
-			name = BirthdayCountdownMenu;
+			name = AgeCountdown;
 			productName = BirthdayCountdownMenu;
-			productReference = DED7727B2BA7675400D59029 /* BirthdayCountdownMenu.app */;
+			productReference = DED7727B2BA7675400D59029 /* AgeCountdown.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DED772762BA7675400D59029 /* Build configuration list for PBXProject "BirthdayCountdownMenu" */;
+			buildConfigurationList = DED772762BA7675400D59029 /* Build configuration list for PBXProject "AgeCountdown" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DED7727A2BA7675400D59029 /* BirthdayCountdownMenu */,
+				DED7727A2BA7675400D59029 /* AgeCountdown */,
 			);
 		};
 /* End PBXProject section */
@@ -120,7 +122,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DED772832BA7675500D59029 /* Assets.xcassets in Resources */,
-				DED772862BA7675500D59029 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,21 +134,11 @@
 			files = (
 				DED772812BA7675400D59029 /* ViewController.swift in Sources */,
 				DED7727F2BA7675400D59029 /* AppDelegate.swift in Sources */,
+				DED772932BA775A800D59029 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		DED772842BA7675500D59029 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DED772852BA7675500D59029 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DED772882BA7675500D59029 /* Debug */ = {
@@ -203,7 +194,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -260,7 +251,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -273,22 +264,25 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = BirthdayCountdownMenu/BirthdayCountdownMenu.entitlements;
+				CODE_SIGN_ENTITLEMENTS = AgeCountdown/AgeCountdown.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = JCTSHVLN6W;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AgeCountdown/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = alpha.birthdaycountdownmenu.BirthdayCountdownMenu;
+				PRODUCT_BUNDLE_IDENTIFIER = alpha.AgeCountdown;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -300,22 +294,25 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = BirthdayCountdownMenu/BirthdayCountdownMenu.entitlements;
+				CODE_SIGN_ENTITLEMENTS = AgeCountdown/AgeCountdown.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = JCTSHVLN6W;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AgeCountdown/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = alpha.birthdaycountdownmenu.BirthdayCountdownMenu;
+				PRODUCT_BUNDLE_IDENTIFIER = alpha.AgeCountdown.AgeCountdown;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -325,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DED772762BA7675400D59029 /* Build configuration list for PBXProject "BirthdayCountdownMenu" */ = {
+		DED772762BA7675400D59029 /* Build configuration list for PBXProject "AgeCountdown" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DED772882BA7675500D59029 /* Debug */,
@@ -334,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DED7728A2BA7675500D59029 /* Build configuration list for PBXNativeTarget "BirthdayCountdownMenu" */ = {
+		DED7728A2BA7675500D59029 /* Build configuration list for PBXNativeTarget "AgeCountdown" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DED7728B2BA7675500D59029 /* Debug */,
